@@ -5,8 +5,6 @@ pipeline {
             args '-p 3800:3800'
         }
     }
-
-  }
   stages {
     stage('Build') {
       steps {
